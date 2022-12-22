@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <style>
+      .text-section {
+        width: 50%;
+        float: left;
+      }
+      .image-section {
+        width: 50%;
+        float: right;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-section">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor, ipsum eu aliquam interdum, lacus leo pellentesque massa, in sodales urna quam id leo. Aenean in massa nec tellus volutpat convallis. Etiam eu nunc eu nunc dignissim viverra.</p>
+    </div>
+    <div class="image-section">
+      <img src="image.jpg" alt="image">
+    </div>
+  </body>
+</html>
