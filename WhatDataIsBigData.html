@@ -61,14 +61,15 @@ main {
 
 
 footer {
-  position: fixed;
+
   bottom: 0;
   background-color: #333;
   color: white;
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  width: 100%
+  width: 98%
+ 
 }
 
 footer ul {
@@ -92,6 +93,21 @@ footer a {
   text-decoration: none;
 }
 
+.text-section {
+        width: 50%;
+        float: left;
+      }
+.image-section {
+        width: 50%;
+        float: right;
+	   text-align: center;
+	   margin-right: 300px
+      }
+  img {
+        width: 100%;
+      }
+
+
   </style>
 </head>
 <body>
@@ -110,11 +126,49 @@ footer a {
     </ul>
   </nav>
   <main>
+    <div class="text-section">
     <section id="first">
       <h3>What Data is Big Data?</h3>
       <p>Well it depends!</p>
+	<p>Majorly on two factors:
+	<ul>
+		<li>Volume/Quantity</li>
+		<li>Processing Time</li>
+	</ul>
+	Let's suppose your current compute infrastrucutre can process 100MB of Data in 5 Min.<br>
+	This much time to process the data is ok with your Business stakeholder.<br>
+	Hence it is "No Big Data".
+	<hr>
+	Lets's Increase the Data Volume by x 10 = 1000 MB<br>
+	Time to process: 5Min x 10 = 50 Min.<br>
+	This is also okay with the business Stakeholder.<br>
+	Hence it is "No Big Data"
+	<hr>
+	Let's further Increase the Volume by x 10 = 10 GB<br>
+	Time Time to process: 50Min x 10  = 10 Hours(approx.).<br>
+	Supposing this is also okay with the business Stakeholder.<br>
+	Hence it is "No Big Data"
+	<hr>
+	Let's further Increase the Volume by x 10 = 1000 GB(1TB)<br>
+	Time Time to process: 50 x 10  = 1000 Hours = 40 Days.<br>
+	40 Days of processing time would be nightmare.<br>
+	Now, this is a "Big Data Problem" which needs to be solved.<br>
+	Processing time has to be reduced to a time which suits the Business requirement.
+	<hr>
+	Now this problem can solved by variety of solutions available:
+	<ul>
+		<li>Hadoop</li>
+		<li>Spark</li>
+		<li>Flink</li>
+		<li>Etc.</li>
+	</ul>
+	However, Spark is the most popular one today because of the reasons we will
+	discuss in upcoming blogposts.
+	
+	</p>
     </section>
-
+ 	<img src="C:\Users\Kamal Nayan\Desktop\DataBlog\DALL·E 2022-12-22 13.07.36 - 4 elephants of increasing size oil on painting.png" alt="image">
+    </div>
   
   </main>
   <footer>
